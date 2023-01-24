@@ -88,6 +88,13 @@ struct RootsCalculatingView: View {
                            minimumValueLabel: {Text("-10")},
                            maximumValueLabel: {Text("10")})
                 }
+                
+            }
+            HStack{
+                Text("x≈")
+                    .bold()
+                    .font(.title2)
+                Text("\(    discriminant)")
             }
             .padding()
             Spacer()
